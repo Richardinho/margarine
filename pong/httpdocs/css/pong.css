@@ -1,0 +1,11 @@
+#board{ width: 600px; height: 400px; background-color: black; position: relative }
+#ball{ width: 10px; height: 10px; background-color: white; position: absolute;}
+.paddle{ width: 10px; height: 100px; background-color: white; position: absolute; }
+
+#player1{ left: 50px; top: 50px; }
+#player2{ right: 50px; top: 50px; }
+
+.score{ position: absolute; font-family: courier; color: white; font-size: 30px; top: 10px; display: block; width: 150px; font-weight: bold }
+
+#playerOneScore{ left: 10px; }
+#playerTwoScore{ right: 10px; text-align: right; }
